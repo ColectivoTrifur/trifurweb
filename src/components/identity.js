@@ -1,13 +1,16 @@
-
 import React from "react";
 import { Sprite, Text, Stage, Container } from '@inlet/react-pixi'
 import Circles from './circles.js';
+
 const Identity = () => {
-  const styles = {
-    mixBlendMode:"overlay",
-    opacity:".78",
-    fill:"url(#a)"
-  };
+
+    const styles = {
+      mixBlendMode:"overlay",
+      opacity:".78",
+      fill:"url(#a)"
+    };
+
+ 
     return (
         <div>
           <Stage width={1500} height={1050} options={{ backgroundAlpha: 0 }}>
@@ -34,27 +37,26 @@ const Identity = () => {
                 <circle cx="89.48" cy="89.48" r="89.48" style={styles} />
               </g>
             </svg>
-          </div>
-          <div className="logo-circle">
-              <svg viewBox="0 0 500 500">
+       </div>
+       <div className="logo-circle">
+           <svg viewBox="0 0 500 500">
 
-              <path id="curve" fill="transparent"
-                    d="
-                    M 100, 100
-                    m -75, 0
-                    a 75,75 0 1,0 150,0
-                    a 75,75 0 1,0 -150,0
-                    "
-              />
-              <text width="500">
-                <textPath alignment-baseline="top" xlinkHref="#curve">
-                  Inbipeda - Inbipeda - Inbipeda - Inbipeda - Inbipeda - Inbipeda -
-                </textPath>
-              </text>
-            </svg>
-          </div>
-        </div>
-
+           <path id="curve" fill="transparent"
+                 d="
+                 M 100, 100
+                 m -75, 0
+                 a 75,75 0 1,0 150,0
+                 a 75,75 0 1,0 -150,0
+                 "
+           />
+           <text width="500">
+             <textPath alignment-baseline="top" xlinkHref="#curve">
+               Inbipeda - Inbipeda - Inbipeda - Inbipeda - Inbipeda - Inbipeda -
+             </textPath>
+           </text>
+         </svg>
+       </div>
+    </div>
     );
 };
 export default Identity;
