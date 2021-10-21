@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+.gradient-circles {
+    position:absolute;
+    width:30%;
+    left:2.5%;
+    top:25%;
+    
+
+}
+
+.logo-circle {
+    position:absolute;
+    font-family:'Courier Prime', monospace;
+    font-size: 75%;
+    width:90%;
+    
+
+}
