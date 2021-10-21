@@ -1,8 +1,8 @@
 import React from "react";
 
-const Description = () => {
+const TitleParagraph = () => {
   return (
-    <div>
+    <div className="title-paragraph">
       <h2>Descripción</h2>
       <p>
         Instalacion experiemental de visuales y sonido en vivo donde exploramos
@@ -13,4 +13,4 @@ const Description = () => {
   );
 };
 
-export default Description;
+export default TitleParagraph;

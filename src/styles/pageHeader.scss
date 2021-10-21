@@ -1,0 +1,15 @@
+@use "variables";
+@use "mixins";
+
+.page-header {
+  @include mixins.spacing;
+  box-sizing: border-box;
+  display: flex;
+  height: 55px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  .logo {
+    color: variables.$myBlue;
+  }
+}

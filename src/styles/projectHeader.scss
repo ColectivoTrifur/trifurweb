@@ -1,0 +1,13 @@
+@use "variables";
+@use "mixins";
+
+.project-header {
+  @include mixins.spacing;
+  .basic-data {
+    text-align: left;
+    h1 {
+      font-size: 24px;
+      padding-bottom: variables.$basePadding / 2;
+    }
+  }
+}
