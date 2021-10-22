@@ -1,11 +1,9 @@
 
-import React, { useEffect, useState, useRef } from 'react';
-import { Spring } from 'react-spring/renderprops';
+import React from 'react';
 
 const Logo = (props) => {
     return(
-       <div className="logo-circle">
-           <svg viewBox="0 0 500 500">
+           <svg viewBox="0 0 250 200" id="logo-circle">
 
            <path id="curve" fill="transparent"
                  d="
@@ -16,12 +14,11 @@ const Logo = (props) => {
                  "
            />
            <text width="500">
-             <textPath alignment-baseline="top" xlinkHref="#curve">
+             <textPath alignmentBaseline="top" xlinkHref="#curve">
                Inbipeda - Inbipeda - Inbipeda - Inbipeda - Inbipeda - Inbipeda -
              </textPath>
            </text>
          </svg>
-       </div>
     );
 }
 export default Logo;

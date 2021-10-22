@@ -5,15 +5,24 @@
     width:30%;
     left:12.5%;
     top:25%;
-    
-
 }
 
-.logo-circle {
-    position:absolute;
-    font-family:'Courier Prime', monospace;
-    font-size: 75%;
-    width:90%;
-    
-
+text {
+  position: absolute;
+  top: 20%;
+  left:50%;
+  font-family: "Courier Prime", monospace;
+  font-size: 75%;
+  animation: rotate 100s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
 }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
