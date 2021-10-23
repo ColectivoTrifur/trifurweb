@@ -1,0 +1,13 @@
+@use "variables";
+
+.sides {
+  padding: variables.$basePadding/2 variables.$basePadding;
+}
+
+.bottom {
+  margin-bottom: variables.$basePadding/2;
+}
+
+.bottom-s {
+  margin-bottom: variables.$basePadding/3;
+}

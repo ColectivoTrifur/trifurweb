@@ -1,9 +1,10 @@
 import "./App.css";
-import PageHeader from "./components/pageHeader.js";
+import PageHeader from "./components/PageHeader.js";
 import ProjectHeader from "./components/ProjectHeader";
 import TitleParagraph from "./components/TitleParagraph";
-import Collaborators from "./components/collaborators";
-import Gallery from "./components/gallery";
+import Collaborators from "./components/Collaborators";
+import Gallery from "./components/Gallery";
+import { ReactComponent as Circle } from "./components/circle.svg";
 import main from "./styles/main.scss";
 
 function App() {

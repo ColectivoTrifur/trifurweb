@@ -1,5 +1,0 @@
-@use "variables";
-
-@mixin spacing {
-  padding: variables.$basePadding/2 variables.$basePadding;
-}

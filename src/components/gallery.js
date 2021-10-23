@@ -1,12 +1,16 @@
 import React from "react";
+import GalleryItem from "./GalleryItem";
 
 const Gallery = () => {
   return (
-    <div>
-      <h2>Registros</h2>
-      <li>
-        <u>000000</u>
-      </li>
+    <div className="gallery sides">
+      <h2 className="bottom">Registros</h2>
+      <div className="grid">
+        <GalleryItem
+          source="assets/rectangle-holder.png"
+          altText="alternative"
+        />
+      </div>
     </div>
   );
 };

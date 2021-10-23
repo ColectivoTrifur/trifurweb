@@ -1,8 +1,8 @@
 // General
 @use "reset";
-@use "fonts";
+@use "texts";
+@use "layout";
 
 // Components
 @use "pageHeader";
-@use "projectHeader";
-@use "titleParagraph";
+@use "collaborators";
