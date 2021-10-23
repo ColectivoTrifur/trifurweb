@@ -1,11 +1,10 @@
-import "./App.css";
+import main from "./styles/main.scss";
 import PageHeader from "./components/PageHeader.js";
 import ProjectHeader from "./components/ProjectHeader";
 import TitleParagraph from "./components/TitleParagraph";
 import Collaborators from "./components/Collaborators";
 import Gallery from "./components/Gallery";
-import { ReactComponent as Circle } from "./components/circle.svg";
-import main from "./styles/main.scss";
+import Documentation from "./components/Documentation";
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
       <TitleParagraph />
       <Collaborators />
       <Gallery />
+      <Documentation />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const Collaborators = ({ who, what }) => {
   return (
-    <div className="collaborator bottom">
+    <div className="collaborator bottom-l">
       <p className="bottom-s">
         <span className="who">{who}: </span>
         {what}

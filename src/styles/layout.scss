@@ -1,7 +1,25 @@
 @use "variables";
 
+.App {
+  display: grid;
+  @media screen and (min-width: 859px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  div:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
 .sides {
-  padding: variables.$basePadding/2 variables.$basePadding;
+  padding: 0 variables.$basePadding;
+  width: calc(100% - #{variables.$basePadding * 2});
+}
+
+.bottom-l {
+  margin-bottom: variables.$basePadding;
 }
 
 .bottom {
@@ -10,4 +28,14 @@
 
 .bottom-s {
   margin-bottom: variables.$basePadding/3;
+}
+
+.grid {
+  display: grid;
+  grid-gap: variables.$basePadding/4;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+  width: 100%;
 }

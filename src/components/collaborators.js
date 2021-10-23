@@ -3,7 +3,7 @@ import Collaborator from "./Collaborator";
 
 const Collaborators = () => {
   return (
-    <div className="collaborators sides">
+    <div className="collaborators sides bottom-l">
       <h2 className="bottom">Participantes</h2>
       <Collaborator
         who="Rosario Perazolo Masjoan"
