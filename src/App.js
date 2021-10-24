@@ -1,10 +1,10 @@
 import main from "./styles/main.scss";
-import PageHeader from "./components/PageHeader.js";
-import ProjectHeader from "./components/ProjectHeader";
+import PageHeader from "./components/pageHeader.js";
+import ProjectHeader from "./components/projectHeader";
 import TitleParagraph from "./components/TitleParagraph";
-import Collaborators from "./components/Collaborators";
-import Gallery from "./components/Gallery";
-import Documentation from "./components/Documentation";
+import Collaborators from "./components/collaborators.js";
+import Gallery from "./components/gallery.js";
+import Documentation from "./components/documentation.js";
 
 function App() {
   return (

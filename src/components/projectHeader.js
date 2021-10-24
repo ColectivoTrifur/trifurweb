@@ -10,8 +10,8 @@ const ProjectHeader = () => {
         <p>Experiencia vibracional</p>
         <p>Noviembre 2021</p>
       </div>
-    </div>
-  );
-};
+        <Identity/>
+      </div>
+  )}
 
 export default ProjectHeader;
