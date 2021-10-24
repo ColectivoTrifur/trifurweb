@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/trifurweb/static/css/main.e29cafc2.chunk.css",
-    "main.js": "/trifurweb/static/js/main.c88a1227.chunk.js",
-    "main.js.map": "/trifurweb/static/js/main.c88a1227.chunk.js.map",
+    "main.css": "/trifurweb/static/css/main.15b3db65.chunk.css",
+    "main.js": "/trifurweb/static/js/main.8db04f90.chunk.js",
+    "main.js.map": "/trifurweb/static/js/main.8db04f90.chunk.js.map",
     "runtime-main.js": "/trifurweb/static/js/runtime-main.f331fa9e.js",
     "runtime-main.js.map": "/trifurweb/static/js/runtime-main.f331fa9e.js.map",
     "static/js/2.4e80694d.chunk.js": "/trifurweb/static/js/2.4e80694d.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.60ea0163.chunk.js": "/trifurweb/static/js/3.60ea0163.chunk.js",
     "static/js/3.60ea0163.chunk.js.map": "/trifurweb/static/js/3.60ea0163.chunk.js.map",
     "index.html": "/trifurweb/index.html",
-    "static/css/main.e29cafc2.chunk.css.map": "/trifurweb/static/css/main.e29cafc2.chunk.css.map",
+    "static/css/main.15b3db65.chunk.css.map": "/trifurweb/static/css/main.15b3db65.chunk.css.map",
     "static/js/2.4e80694d.chunk.js.LICENSE.txt": "/trifurweb/static/js/2.4e80694d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f331fa9e.js",
     "static/js/2.4e80694d.chunk.js",
-    "static/css/main.e29cafc2.chunk.css",
-    "static/js/main.c88a1227.chunk.js"
+    "static/css/main.15b3db65.chunk.css",
+    "static/js/main.8db04f90.chunk.js"
   ]
 }
