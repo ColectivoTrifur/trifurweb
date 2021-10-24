@@ -1,10 +1,38 @@
+import React,{useEffect} from "react";
+import anime from "animejs";
 
-import React from "react";
 const Gradient = (props) => {
     const styles = {
       opacity:props.opacity,
       fill:"url(#a)"
     };
+
+    useEffect( () => {
+            let tl = anime.timeline({
+              easing: "easeOutBack",
+              duration: 4000,
+              loop: true
+            });
+            
+            tl.add({
+              targets: "#gradient-circles",
+              scale: {
+                value: [.5, 1],},
+               opacity: {
+                  value: [.2, 1],},
+              duration:2000,
+            });
+            tl.add({
+              targets: "#gradient-circles",
+              scale: {
+                value: [1,.5],},
+                opacity: {
+                  value: [1, .2],},
+              duration:1000,
+            });
+                
+    },[]);
+
     return(
 
             <svg viewBox="0 0 178.97 178.97" id="gradient-circles">
@@ -27,4 +55,5 @@ const Gradient = (props) => {
 
     )
 }
+
 export default Gradient;

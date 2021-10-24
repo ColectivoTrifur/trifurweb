@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
-.gradient-circles {
+#gradient-circles {
     position:absolute;
-    width:30%;
+    width:100%;
     left:12.5%;
     top:25%;
 }
@@ -17,6 +17,7 @@ text {
   transform-box: fill-box;
   transform-origin: center;
 }
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -25,4 +26,5 @@ text {
     transform: rotate(360deg);
   }
 }
+
 

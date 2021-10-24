@@ -6,7 +6,7 @@ import './identity.css';
 
 const Identity = () => { 
     return (
-        <svg style={{mixBlendMode:"soft-light"}} >
+        <svg style={{mixBlendMode:"screen"}} >
             <Gradient cx="89.48" opacity=".9" color0="#000ff0" color1="#000ff0" offset=".92"/>
             <LogoCircle />
         </svg>
