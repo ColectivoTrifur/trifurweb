@@ -9,26 +9,40 @@ const Gradient = (props) => {
 
     useEffect( () => {
             let tl = anime.timeline({
-              easing: "easeOutBack",
+              easing: "easeInCubic",
               duration: 4000,
               loop: true
             });
             
             tl.add({
               targets: "#gradient-circles",
-              scale: {
-                value: [.5, 1],},
                opacity: {
-                  value: [.2, 1],},
-              duration:2000,
+                  value: [.3, 1],},
+              duration:1500,
             });
             tl.add({
               targets: "#gradient-circles",
-              scale: {
-                value: [1,.5],},
                 opacity: {
                   value: [1, .2],},
               duration:1000,
+            });
+            tl.add({
+              targets: "#gradient-circles",
+                opacity: {
+                  value: [.2, .5],},
+              duration:1000,
+            });
+            tl.add({
+              targets: "#gradient-circles",
+                opacity: {
+                  value: [.5, .8],},
+              duration:1000,
+            });
+            tl.add({
+              targets: "#gradient-circles",
+                opacity: {
+                  value: [.8, .3],},
+              duration:500,
             });
                 
     },[]);
