@@ -1,10 +1,10 @@
 import React from "react";
 
-const Description = () => {
+const TitleParagraph = () => {
   return (
-    <div>
-      <h2>Descripción</h2>
-      <p>
+    <div className="title-paragraph sides bottom-l">
+      <h2 className="title bottom">Descripción</h2>
+      <p className="paragraph">
         Instalacion experiemental de visuales y sonido en vivo donde exploramos
         las posibilidades de crear un espacio que pueda ser vivenciado por una
         multitud de corporalidades
@@ -13,4 +13,4 @@ const Description = () => {
   );
 };
 
-export default Description;
+export default TitleParagraph;
