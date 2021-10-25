@@ -2,7 +2,6 @@ import React,{useEffect} from "react";
 import anime from "animejs";
 
 const Gradient = (props) => {
-    const colors = ["#4287f5",]
     const styles = {
       opacity:props.opacity,
       fill:"url(#a)"
