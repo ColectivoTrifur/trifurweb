@@ -29,13 +29,3 @@
 .bottom-s {
   margin-bottom: variables.$basePadding/3;
 }
-
-.grid {
-  display: grid;
-  grid-gap: variables.$basePadding/4;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-img {
-  width: 100%;
-}
