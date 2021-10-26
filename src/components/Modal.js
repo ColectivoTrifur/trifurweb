@@ -13,7 +13,7 @@ const Modal = ({ show, onClose, src, alt, title, text }) => {
             alt={alt}
           />
           <h2 className="bottom">{title}</h2>
-          <p>
+          <p className="bottom-l">
             {text}
           </p>
         </div>
