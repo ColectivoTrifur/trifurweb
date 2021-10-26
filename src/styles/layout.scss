@@ -1,6 +1,6 @@
 @use "variables";
 
-.App {
+.grid {
   display: grid;
   @media screen and (min-width: 859px) {
     grid-template-columns: repeat(2, 1fr);
@@ -8,7 +8,7 @@
   @media screen and (min-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);
   }
-  div:first-child {
+  .grid-first {
     grid-column: 1 / -1;
   }
 }
