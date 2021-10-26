@@ -5,16 +5,18 @@ import TitleParagraph from "./components/TitleParagraph";
 import Collaborators from "./components/collaborators.js";
 import Gal from "./components/gallery.js";
 import Documentation from "./components/documentation.js";
+import Modal from "./components/Modal";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App grid">
       <PageHeader />
       <ProjectHeader />
       <TitleParagraph />
       <Collaborators />
       <Gal />
       <Documentation />
+      <Modal />
     </div>
   );
 }

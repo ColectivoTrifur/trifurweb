@@ -1,7 +1,7 @@
 import React from "react";
 function PageHeader() {
   return (
-    <div className="page-header sides">
+    <div className="page-header sides grid-first">
       <div className="logo">
         <p>Trifur</p>
       </div>
