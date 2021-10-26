@@ -2,8 +2,6 @@ import React from "react";
 
 const Modal = ({ show, onClose, src, alt, title, text }) => {
 
-  
-
   return (
     show ? (
     <div className="modal" onClick={onClose}>

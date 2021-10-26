@@ -3,7 +3,7 @@ import React from 'react';
 
 const Logo = (props) => {
     return(
-           <svg viewBox="0 0 250 200" id="logo-circles">
+           <svg viewBox="0 0 200 200" id="logo-circles">
 
            <path id="curve" fill="transparent"
                  d="
