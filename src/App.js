@@ -4,8 +4,6 @@ import ProjectHeader from "./components/projectHeader";
 import TitleParagraph from "./components/TitleParagraph";
 import Collaborators from "./components/collaborators.js";
 import Gal from "./components/gallery.js";
-import Documentation from "./components/documentation.js";
-import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -15,8 +13,6 @@ function App() {
       <TitleParagraph />
       <Collaborators />
       <Gal />
-      <Documentation />
-      <Modal />
     </div>
   );
 }
