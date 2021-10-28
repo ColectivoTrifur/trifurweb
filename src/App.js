@@ -11,7 +11,7 @@ import { renderToStaticMarkup } from 'react-dom/server';
 function App() {
     const svgString = encodeURIComponent(renderToStaticMarkup(<Wave/>));
   return (
-    <div className="App">
+    <div className="App grid">
       <h1
       style={{
           backgroundImage: `url("data:image/svg+xml,${svgString}")`
@@ -23,7 +23,6 @@ function App() {
       <TitleParagraph />
       <Collaborators />
       <Gal />
-      <Documentation />
     </div>
   );
 }

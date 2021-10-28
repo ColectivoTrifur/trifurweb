@@ -10,8 +10,10 @@ strong {
   font-family: "Courier Prime", monospace;
 }
 
-a {
+.link {
   display: inherit;
+  text-decoration: underline;
+  cursor: pointer;
   font-weight: 600;
   color: variables.$blue;
 }
