@@ -62,7 +62,7 @@ const Collaborators = () => {
     {
       who: "Victoria Falco",
       what: "arquitecta y artista",
-      fullBio: "arquitecta y artista",
+      fullBio: "Toia Falco es una arquitecta y diseñadora de la ciudad de Córdoba. Terminó sus estudios en la FAUDI- UNC: a través de su trayecto académico indagó en la cartografía social y sus posibilidades de intervención en el espacio público mediante procesos de diseño participativo.\n De formación autodidacta en el área de la ilustración y el diseño gráfico, su obra explora la técnica del fotomontaje digital y ha llegado a publicarse en diferentes soportes.\n Actualmente, desarrolla su trabajo profesional de manera independiente y colabora con diversos colectivos artísticos de la ciudad de Córdoba como diseñadora y montajista de dispositivos escénicos para intervenciones artísticas y obras de teatro.",
       src: "https://elgranvidrio.com/trifurweb/avatar-toia.jpg",
     },
     {
