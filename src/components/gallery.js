@@ -4,21 +4,28 @@ import Gallery from "react-grid-gallery";
 const Gal = () => {
   const IMAGES = [
     {
-      src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+      src: "https://i.imgur.com/mBzDFwz.jpg",
       thumbnail:
-        "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-      caption: "After Rain (Jeshu John - designerspics.com)",
+        "https://i.imgur.com/mBzDFwz.jpg",
+      caption: "Círculo - Cortando la tela",
     },
     {
-      src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+      src: "https://i.imgur.com/eP61HS5.jpg",
       thumbnail:
-        "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-      caption: "Boats (Jeshu John - designerspics.com)",
+        "https://i.imgur.com/eP61HS5.jpg",
+      caption: "Círculo - Armando la estructura",
     },
     {
-      src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+      src: "https://i.imgur.com/eoQGwSV.jpg",
       thumbnail:
-        "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+        "https://i.imgur.com/eoQGwSV.jpg",
+      caption: "La equipa de visuales y registro trabajando juntas",
+    },
+    {
+      src: "https://i.imgur.com/rqc2jKq.png",
+      thumbnail:
+        "https://i.imgur.com/rqc2jKq.png",
+      caption: "Cherryla en un ensayo",
     },
   ];
   return (
