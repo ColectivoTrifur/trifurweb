@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/trifurweb/static/css/main.c8e486be.chunk.css",
-    "main.js": "/trifurweb/static/js/main.6a6ab562.chunk.js",
-    "main.js.map": "/trifurweb/static/js/main.6a6ab562.chunk.js.map",
-    "runtime-main.js": "/trifurweb/static/js/runtime-main.bba13b8f.js",
-    "runtime-main.js.map": "/trifurweb/static/js/runtime-main.bba13b8f.js.map",
-    "static/js/2.ecdffa3b.chunk.js": "/trifurweb/static/js/2.ecdffa3b.chunk.js",
-    "static/js/2.ecdffa3b.chunk.js.map": "/trifurweb/static/js/2.ecdffa3b.chunk.js.map",
-    "static/js/3.f582c65e.chunk.js": "/trifurweb/static/js/3.f582c65e.chunk.js",
-    "static/js/3.f582c65e.chunk.js.map": "/trifurweb/static/js/3.f582c65e.chunk.js.map",
+    "main.js": "/trifurweb/static/js/main.c4501f14.chunk.js",
+    "main.js.map": "/trifurweb/static/js/main.c4501f14.chunk.js.map",
+    "runtime-main.js": "/trifurweb/static/js/runtime-main.209fb28c.js",
+    "runtime-main.js.map": "/trifurweb/static/js/runtime-main.209fb28c.js.map",
+    "static/js/2.0888ed80.chunk.js": "/trifurweb/static/js/2.0888ed80.chunk.js",
+    "static/js/2.0888ed80.chunk.js.map": "/trifurweb/static/js/2.0888ed80.chunk.js.map",
+    "static/js/3.0a087bd1.chunk.js": "/trifurweb/static/js/3.0a087bd1.chunk.js",
+    "static/js/3.0a087bd1.chunk.js.map": "/trifurweb/static/js/3.0a087bd1.chunk.js.map",
     "index.html": "/trifurweb/index.html",
     "static/css/main.c8e486be.chunk.css.map": "/trifurweb/static/css/main.c8e486be.chunk.css.map",
-    "static/js/2.ecdffa3b.chunk.js.LICENSE.txt": "/trifurweb/static/js/2.ecdffa3b.chunk.js.LICENSE.txt"
+    "static/js/2.0888ed80.chunk.js.LICENSE.txt": "/trifurweb/static/js/2.0888ed80.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bba13b8f.js",
-    "static/js/2.ecdffa3b.chunk.js",
+    "static/js/runtime-main.209fb28c.js",
+    "static/js/2.0888ed80.chunk.js",
     "static/css/main.c8e486be.chunk.css",
-    "static/js/main.6a6ab562.chunk.js"
+    "static/js/main.c4501f14.chunk.js"
   ]
 }
