@@ -6,10 +6,9 @@ const Collaborators = () => {
     {
       who: "Rosario Perazolo Masjoan",
       what: "Lisiada, cineasta y agitadora cultural",
-      src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
       fullBio:
         "Rosario se identifica como lisiada y/o disca. Es parte de Torceduras y bifurcaciones un foro de corporalidades políticas.\nEs cineasta, co-directora y co-guionista de Metro Veinte, una serie sobre orgullo, sexualidad y discapacidad.\nEscribe artículos sobre la intimidad y los cuerpos discas, algunos de ellos publicados Página 12.\nActivista por los derechos de las personas con discapacidad, participó de congresos internacionales donde llegó a representar a Argentina en un cumbre de derechos humanos de la ONU.\nUsando el arte y la cultura como medio, invita a las personas con discapacidad a participar de éstos espacios, cuestionando el modelo social capacitista, y usando la experiencia corporal como potencia artística.",
-      src: "https://elgranvidrio.com/trifurweb/avatar-ro.jpg",
+      src: "https://elgranvidrio.com/trifurweb/avatar-rosario.jpg",
     },
     {
       who: "Karen Palacio",
